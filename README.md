@@ -24,5 +24,5 @@ There are several theming options available through XML attributes which you can
   app:npb_unreached_color="#CDCDCD"             // set the unreached color, default #CDCDCD
   app:npb_text_visible="true"                   // should show the percent text, default is true
   app:npb_text_size="14sp"                      // set the progress percent text size, default 14sp
-  app:npb_text_color=""                         // set the text color, when the progress height < text size, text color is #27AE60, or white
+  app:npb_text_color=""                         // set the text color. when the progress height < text size, text color is #27AE60, or white
 ```
