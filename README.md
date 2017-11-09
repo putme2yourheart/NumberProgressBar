@@ -10,6 +10,9 @@ Place the view in your XML layout file.
         android:id="@+id/numberpb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+    I strongly recommend that you use android:layout_height="wrap_content"。
+    If you want to change the bar height please use app:npb_progress_bar_height
 ```
 
 ## Theming
