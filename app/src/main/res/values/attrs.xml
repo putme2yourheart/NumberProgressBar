@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumberProgressBar">
+        <attr name="npb_text_size" format="dimension"/>
+        <attr name="npb_text_color" format="color"/>
+        <attr name="npb_text_visible" format="boolean"/>
+        <attr name="npb_progress_current" format="float"/>
+        <attr name="npb_progress_max" format="float"/>
+        <attr name="npb_progress_bar_height" format="dimension"/>
+        <attr name="npb_unreached_color" format="color"/>
+        <attr name="npb_reach_color" format="color"/>
+    </declare-styleable>
+</resources>
