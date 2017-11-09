@@ -11,3 +11,18 @@ Place the view in your XML layout file.
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 ```
+
+## Theming
+
+There are several theming options available through XML attributes which you can use to completely change the look-and-feel of this view to match the theme of your app.
+
+```xml
+  app:npb_progress_current="0"                  // set the current progress, default 0
+  app:npb_progress_max="100"                    // set the max progress, default 100
+  app:npb_progress_bar_height="3dp"             // set the progress bar height, default 3dp
+  app:npb_reach_color="#27AE60"                 // set the reach color, default #27AE60
+  app:npb_unreached_color="#CDCDCD"             // set the unreached color, default #CDCDCD
+  app:npb_text_visible="true"                   // should show the percent text, default is true
+  app:npb_text_size="14sp"                      // set the progress percent text size, default 14sp
+  app:npb_text_color=""                         // set the text color, when the progress height < text size, text color is #27AE60, or white
+```
