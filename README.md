@@ -17,7 +17,7 @@ Place the view in your XML layout file.
 
 ## Theming
 
-There are several theming options available through XML attributes which you can use to completely change the look-and-feel of this view to match the theme of your app.
+There are several theming options available through XML attributes which you can use to completely change the view to match the theme of your app.
 
 ```xml
   app:npb_progress_current="0"                  // set the current progress, default 0
